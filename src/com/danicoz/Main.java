@@ -28,6 +28,7 @@ public class Main {
 		main.init();
 		main.excute();
 		System.out.println("测试 Git 日志！");
+		System.out.println("测试 Git 分支日志");
 
 		/*
 		 * 通过钩子函数来清空资源，主要关闭连接，释放列表等。
