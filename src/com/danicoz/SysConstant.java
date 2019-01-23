@@ -13,6 +13,7 @@ public class SysConstant {
     /** 目标库 **/
 	public static String TAR_DBALIAS = "tarDB";
 	
+	
 	/** 来源库  **/
 	public static String SRC_DBALIAS = "midDB";
 	
