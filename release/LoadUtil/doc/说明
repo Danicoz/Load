@@ -1,0 +1,9 @@
+1、该程序 是 Load 工具，功能把文件用load语句加载入库；
+2、mysql 
+	1> 修改 conn.properties 数据库连接
+	2> 修改 conf.xml 中的 type=mysql
+	3> 修改 <mysqlLoad> load 语句具体信息
+
+3、oracle 
+	1> 修改 conf.xml 中的 type=oracle
+	2> 修改 load.ctl load 语句具体信息

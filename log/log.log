@@ -1,0 +1,13 @@
+[2018-06-06 11:16:32 762] [main] [INFO ] [com.danicoz.conf.Config:104] - 开始读取Config配置文件：E:\eclipseWord\LoadUtil\conf\config.xml
+[2018-06-06 11:16:34 349] [main] [INFO ] [com.alibaba.druid.pool.DruidDataSource:715] - {dataSource-1} inited
+[2018-06-06 11:16:34 808] [main] [INFO ] [com.danicoz.Main:32] - 加载数据SQL=
+			LOAD DATA local INFILE './file/load.csv'
+			INTO TABLE T_TEST_LOAD CHARACTER SET GBK 
+			FIELDS TERMINATED BY ','
+			ENCLOSED BY '' 
+			ESCAPED BY '' LINES TERMINATED BY '\r\n'
+			IGNORE 0 LINES (name, alias)
+		
+[2018-06-06 11:16:34 928] [main] [INFO ] [com.danicoz.Main:34] - 加载的数据量：3
+[2018-06-06 11:16:34 930] [Thread-1] [INFO ] [com.danicoz.Main:36] - ++++++++++> 开始关闭连接及释放资源 ......
+[2018-06-06 11:16:34 930] [Thread-1] [INFO ] [com.danicoz.Main:37] - ++++++++++> clearSource结束! 程序退出!

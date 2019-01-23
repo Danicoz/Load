@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?>
+<config>
+	<loadInfo>
+		<!-- load 方式 -->
+		<type>mysql</type><!-- develop/develop@TestServer_10_8 -->
+		<oracleLoad><![CDATA[sqlldr userid=scott/123456@MYORCL control=./file/load.ctl log=./file/log.log]]></oracleLoad>
+		<mysqlLoad>
+			<![CDATA[LOAD DATA local INFILE './file/load.csv'
+			INTO TABLE T_TEST_LOAD CHARACTER SET GBK 
+			FIELDS TERMINATED BY ','
+			ENCLOSED BY '' 
+			ESCAPED BY '' LINES TERMINATED BY '\r\n'
+			IGNORE 0 LINES (name, alias)]]>
+		</mysqlLoad>
+	</loadInfo>
+</config>
